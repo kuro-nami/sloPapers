@@ -6,8 +6,20 @@
     <title>SLO Papers</title>
     <link rel="icon" type="image/x-icon" href="./src/gem.ico">
     <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/loading.css" />
   </head>
   <body class="bg-[#3C3F58] text-white box-border">
+       <!-- Loading Screen -->
+       <div id="loading-screen">
+        <div class="spinner">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     <!-- navbar here  -->
     <nav
       class="fixed top-0 left-0 h-20 justify-evenly items-center w-full bg- border-b-gray-200 border-b-2 lg:flex hidden text-lg bg-[#2E3047]"
@@ -24,6 +36,7 @@
     </nav>
 
     <!-- PHONE NAVBAR  -->
+     
     <img
       id="barsicon"
       class="lg:hidden flex w-5 fixed top-7 right-7 z-30 cursor-pointer"

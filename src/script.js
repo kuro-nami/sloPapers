@@ -1,3 +1,5 @@
+console.log('Made by Nabeel Sadiq.\n😀')
+
 const barsIcon = document.getElementById('barsicon');
 const menu = document.getElementById('phonemenu');
 
@@ -10,4 +12,17 @@ barsIcon.addEventListener('click', function () {
         // If it is not, show it
         menu.style.display = 'flex';
     }
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Hide the loading screen
+    var loadingScreen = document.getElementById("loading-screen");
+    var content = document.getElementById("content");
+
+    // Simulate content loading with a timeout (you can replace this with actual loading logic)
+    setTimeout(function() {
+        loadingScreen.style.display = "none"; // Hide loading screen
+        content.style.display = "block"; // Show content
+    }, 2250); // Adjust the delay as needed
 });
