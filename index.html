@@ -1,13 +1,973 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SLO Papers</title>
+    <link rel="stylesheet" href="./src/output.css" />
   </head>
-  <body>
+  <body class="bg-black text-white box-border">
+    <!-- navbar here  -->
+    <nav
+      class="fixed top-0 left-0 h-20 justify-evenly items-center w-full bg- border-b-gray-200 border-b-2 lg:flex hidden text-lg bg-black"
+    >
+      <a href="#maths" class="">Maths</a>
+      <a href="#biology" class="">Biology</a>
+      <a href="#computer" class="">Computer</a>
+      <a href="#physics" class="">Physics</a>
+      <a href="#chemistry" class="">Chemistry</a>
+      <a href="#stats" class="">Statistics</a>
+      <a href="#urdu" class="">Urdu</a>
+      <a href="#english" class="">English</a>
+      <a href="#islamiyat" class="">Islamiyat</a>
+    </nav>
+
+    <!-- PHONE NAVBAR  -->
+    <img
+      id="barsicon"
+      class="lg:hidden flex w-5 fixed top-7 right-7 z-30 cursor-pointer"
+      src="./src/bars.svg"
+      alt="Menu"
+    />
+
+    <div
+      id="phonemenu"
+      class="fixed top-0 left-0 w-full bg-black text-xl justify-center items-center flex-col gap-7 py-28 border-b-2 border-gray-400 hidden"
+    >
+      <a href="#maths" class="">Maths</a>
+      <a href="#biology" class="">Biology</a>
+      <a href="#computer" class="">Computer</a>
+      <a href="#physics" class="">Physics</a>
+      <a href="#chemistry" class="">Chemistry</a>
+      <a href="#stats" class="">Statistics</a>
+      <a href="#urdu" class="">Urdu</a>
+      <a href="#english" class="">English</a>
+      <a href="#islamiyat" class="">Islamiyat</a>
+    </div>
 
     <!-- Main content has the subjects, with their theory and practical links -->
-    <div class="container"></div>
+    <div class="md:mt-10 lg:px-20 px-14">
+      <div id="maths">
+        <h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Mathematics 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+      </div>
+      <div id="biology"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Biology 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+      <div id="computer"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Computer 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+      <div id="physics"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Physics 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+      <div id="chemistry"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Chemistry 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+      <div id="stats"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Statistics 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+      <div id="urdu"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Urdu
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+      <div id="english"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            English 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+      <div id="islamiyat"><h1 class="font-sans text-4xl text-gray-100 md:text-5xl pt-24">
+            Islamiyat 
+          </h1>
+          <div
+            class="mt-8 grid w-full grid-cols-1 grid-rows-2 gap-6 md:w-3/4 md:grid-cols-2"
+          >
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">9th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 9th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">10th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 10th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">11th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 11th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End -->
+            <!-- Card -->
+            <div
+              class="flex flex-col items-start justify-center gap-2 rounded-md border-2 border-white p-3"
+            >
+              <h1 class="text-2xl font-bold">12th Model Papers</h1>
+              <p class="text-gray-300">Model Papers of 12th Class by Federal Board</p>
+              <span class="mt-2">
+                  <a href="#" target="_blank">
+                    <button
+                      class="hover:bg-white px-4 py-2 border-2 border-white transition-all hover:text-black bg-black text-white"
+                    >
+                      Theory
+                    </button>
+                  </a>
+                  <a href="#" target="_blank">
+                    <button
+                      class="bg-white px-4 py-2 border-2 hover:border-white transition-all text-black hover:bg-black hover:text-white"
+                    >
+                      Practical
+                    </button>
+                  </a>
+              </span>
+            </div>
+            <!-- Card End --></div>
+    </div>
+    <script src="./src/script.js"></script>
   </body>
 </html>
