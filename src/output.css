@@ -660,6 +660,10 @@ video {
   margin-top: 3rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -682,6 +686,10 @@ video {
 
 .h-20 {
   height: 5rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-full {
