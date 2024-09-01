@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    font-family: "SUSE", system-ui;
+    overflow-x: hidden;
+}
+
+/* svg bg shape  */
+.custom-shape-divider-bottom-1725187196 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1725187196 svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 408px;
+}
+
+.custom-shape-divider-bottom-1725187196 .shape-fill {
+    fill: #CA3AD6;
+}
+
 ::-moz-selection {
     color: white;
     background: #6e52ab;
@@ -15,7 +45,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, #333, #000, #333);
+    background: linear-gradient(270deg, #5d5dbd, #000, #333);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +56,7 @@
 .spinner {
     width: 70.4px;
     height: 70.4px;
-    --clr: #6e52ab;
+    --clr: #5d5dbd;
     --clr-alpha: #161616;
     animation: spinner 1.6s infinite ease;
     transform-style: preserve-3d;

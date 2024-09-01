@@ -24,5 +24,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         loadingScreen.style.display = "none"; // Hide loading screen
         content.style.display = "block"; // Show content
-    }, 2250); // Adjust the delay as needed
+    }, 50); // Adjust the delay as needed
 });
