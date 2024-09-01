@@ -29,13 +29,13 @@ body {
 }
 
 ::-moz-selection {
-    color: white;
-    background: #6e52ab;
+    color: #5324C2;
+    background: #1DDECB;
 }
 
 ::selection {
-    color: white;
-    background: #6e52ab;
+    color: #5324C2;
+    background: #1DDECB;
 }
 
 /* Fullscreen loading screen */
