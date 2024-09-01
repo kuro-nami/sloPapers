@@ -15,14 +15,14 @@ barsIcon.addEventListener('click', function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Hide the loading screen
     var loadingScreen = document.getElementById("loading-screen");
     var content = document.getElementById("content");
 
     // Simulate content loading with a timeout (you can replace this with actual loading logic)
-    setTimeout(function() {
+    setTimeout(function () {
         loadingScreen.style.display = "none"; // Hide loading screen
         content.style.display = "block"; // Show content
-    }, 50); // Adjust the delay as needed
+    }, 2250); // Adjust the delay as needed
 });
